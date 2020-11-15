@@ -1,0 +1,53 @@
+import Vue from "vue";
+import {
+  Button,
+  Icon,
+  TreeSelect,
+  Image,
+  Overlay,
+  Loading,
+  DropdownMenu,
+  DropdownItem,
+  GoodsAction,
+  GoodsActionIcon,
+  GoodsActionButton,
+  Sku,
+  Toast,
+  SwipeCell,
+  Card,
+  SubmitBar,
+  Checkbox,
+  Dialog,
+  Empty,
+  Form,
+  Field,
+  Uploader,
+  Swipe,
+  SwipeItem,
+  Lazyload
+} from "vant";
+Vue.use(Lazyload)
+Vue.use(Swipe);
+Vue.use(SwipeItem);
+Vue.use(Uploader);
+Vue.use(Form);
+Vue.use(Field);
+Vue.use(Empty);
+Vue.use(Dialog);
+Vue.use(Checkbox);
+Vue.use(SubmitBar);
+Vue.use(Card);
+Vue.use(SwipeCell);
+Vue.use(Toast);
+Vue.use(Button);
+Vue.use(Icon);
+Vue.use(TreeSelect);
+Vue.use(Image);
+Vue.use(Loading);
+Vue.use(DropdownMenu);
+Vue.use(DropdownItem);
+Vue.use(Overlay);
+Vue.use(GoodsAction);
+Vue.use(GoodsActionButton);
+Vue.use(GoodsActionIcon);
+Vue.use(Sku);

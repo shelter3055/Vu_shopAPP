@@ -1,0 +1,12 @@
+export const loginURL = '/api/user/login' 
+export const registerURL = '/api/user/register'
+export const cateURL = '/index.php' // 分类\列表
+export const addCarURL = '/api/shopcar/add'
+export const getCarURL = '/api/shopcar/getCar'
+export const delCarURL = '/api/shopcar/del'
+export const picURL = 'https://elm.cangdu.org/v1/addimg/shop'
+export const tokenURL = 'https://www.fastmock.site/mock/d2c5e7d9cd0cf427044873083441fd03/api/check-token'
+export const userInfoURL = '/api/user/getInfo'
+export const hotURL = '/api/list/hot'
+export const initMovieURL = '/ajax/movieOnInfoList'
+export const moreMovieURL = '/ajax/moreComingList'
